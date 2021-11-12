@@ -1,128 +1,186 @@
-# Changelog for Weapons balance 26.9.2021
+# Changelog for Weapons balance 12.11.2021
 
-1.1.0.1
-- Weight balancing:
-    - Vanilla:
-        - 1x 10Rnd 7.62x51 NATO mag from 0.27kg to 0.40kg
-
-- Backpack changes:
-    - Vanilla:
-        - Changed "Everyday/Sports Backpacks" weight
-
-# Changelog for Weapons balance 9.8.2021
-
-1.1.0.0
-- Added hemtt support
-- Added NATO Negev NG-7
+- Added ACE ammo & barrel stats
 
 - Weapon changes:
     - Vanilla:
-        - AKM:
-            - Added various AK scopes and muzzle attachments (because RHS did already some, added more though)
-            - Changed name to "AKMN"
-            - Changed weight from 3.13kg to 3.18kg
-        - AKS-74U:
-            - Added various AK muzzle attachments (because RHS did already some, added more though)
-        - MP5K:
-            - Changed name to "HK MP5K-PDW"
-        - Mk200:
-            - Added long scope rail
-        - Negev:
-            - Changed name to "Negev NG-7R"
-        - Mk14 Mod 1 EBR:
-            - Added long scope rail
-        - GM6 variants:
-            - Added long scope rail
-        - MXM variants:
-            - Added long scope rail
-
-- Weight balancing:
-    - Vanilla:
-        - 1x 20Rnd 7.62x51 NATO mag from 0.54kg to 0.74kg
-
-# Changelog for Weapons balance 11.2.2021
-
-- Moved TFAR things to a separate compat mod
-
-# Changelog for Weapons balance 31.12.2020
-
-- Weapon changes:
-    - Removed config that makes pistols and launchers reload when selecting in arsenal
-
-    - Vanilla:
+        - FAL:
+            - Removed burst firing mode
+            - Added full auto firing mode
+            - Added CBA Magwell for FAL mags
+            - Changed name to "FN FAL 50.00"
+            - Changed weight from 6.30kg to 4.26kg
+        - FAL (folding):
+            - Removed burst firing mode
+            - Added full auto firing mode
+            - Added CBA Magwell for FAL mags
+            - Changed name to "FN FAL 50.62"
+            - Changed weight from 6.30kg to 4.31kg
+        - MPV-N:
+            - Added CBA Magwell for MP5 mags
+            - Changed name to "HK MP5N"
+            - Changed weight from 4.20kg to 3.14kg
+        - MPV-SD:
+            - Added CBA Magwell for MP5 mags
+            - Changed name to "HK MP5SD6"
+            - Changed weight from 4.99kg to 3.40kg
+        - M16 Car.:
+            - Added CBA Magwell for 5.56x45 STANAG mags
+            - Changed name to "Colt RO727 Commando"
+            - Changed weight from 4.96kg to 3.05kg
+        - M16 Car. + M203 GL:
+            - Added CBA Magwell for 5.56x45 STANAG mags
+            - Changed name to "Colt RO727 Commando (M203)"
+            - Changed weight from 6.94kg to 4.55kg
+        - M16A2:
+            - Added CBA Magwell for 5.56x45 STANAG mags
+            - Changed weight from 5.50kg to 3.49kg
+        - M16A2 + M203 GL:
+            - Added CBA Magwell for 5.56x45 STANAG mags
+            - Changed name to "M16A2 (M203)"
+            - Changed weight from 7.48kg to 4.99kg
+        - M21:
+            - Added CBA Magwell for 7.62x51 M14 mags
+            - Changed weight from 5.76kg to 5.26kg
+        - M249:
+            - Added CBA Magwell for 5.56x45 belts
+            - Changed weight from 9.98kg to 7.48kg
+        - M60:
+            - Added CBA Magwell for 7.62x51 belts
+            - Changed weight from 14.97kg to 10.48kg
+        - OP-63:
+            - Added CBA Magwell for 7.62x54 SVD mags
+            - Changed weight from 4.08kg to 3.90kg
+        - Sa-58 P & V:
+            - Added CBA Magwell for 7.62x39 vz. 58 mags
+            - Changed name to "Sa vz. 58 P & V"
+            - Changed weight from 4.08kg to 3.09kg
+        - Sa-58 VG-70:
+            - Added CBA Magwell for 7.62x39 vz. 58 mags
+            - Set VG-70 to only take 26.5mm flares
+            - Changed name to "Sa vz. 58 P (VG-70)"
+            - Changed weight from 5.44kg to 4.59kg
+        - Sa-61 with rifle butt & Sa-61:
+            - Added CBA Magwell for 7.65x17 vz. 61 mags
+            - Changed name to "Sa vz. 61" & "Sa vz. 61 (Folded)"
+            - Changed weight from 1.81kg to 1.28kg
+        - UK-59L:
+            - Added CBA Magwell for 7.62x54 vz. 59 belts
+            - Changed name to "UK vz. 59 L"
+            - Changed weight from 14.06kg to 9.30kg
+        - M1911:
+            - Added CBA Magwell for .45 ACP M1911 mags
+            - Changed weight from 1.61kg to 0.95kg
+        - M9:
+            - Added CBA Magwell for 9x19 M9 mags
+            - Changed weight from 1.38kg to 0.95kg
+        - Pi-52:
+            - Added CBA Magwell for 7.62x25 CZ52 mags
+            - Changed name to "vz. 52"
+            - Changed weight from 0.73kg to 0.95kg
+        - Pi-82:
+            - Added CBA Magwell for 9x18 CZ82 mags
+            - Changed name to "vz. 82"
+        - Strela-2:
+            - Added CBA Magwell for Strela rockets
+            - Changed weight from 3.18kg to 5.44kg
+        - FIM-92:
+            - Added CBA Magwell for FIM rockets
+            - Changed weight from 2.95kg to 5.19kg
+        - M136:
+            - Changed weight from 2.95kg to 6.69kg
+        - M47:
+            - Changed weight from 7.26kg to 11.48kg
+        - M72 LAW:
+            - Changed weight from 0.41kg to 3.49kg
+        - MAAWS:
+            - Added CBA Magwell for MAAWS rockets
+            - Changed weight from 5.44kg to 8.48kg
         - RPG-7:
-            - Changed weight from 6.35kg to 5.44kg
+            - Added CBA Magwell for RPG-7 rockets
+            - Changed weight from 3.63kg to 5.44kg
+        - RPG-75:
+            - Changed weight from 1.13kg to 3.19kg
+        - SMAW:
+            - Added CBA Magwell for SMAW rockets
+            - Changed weight from 3.67kg to 7.50kg
 
 - MagazineWells:
     - CBA:
-        - .338LM AI:
-            - Added 1x Vanilla 10Rnd mag
+        - 12 Gauge, 1 Rnd:
+            - Added 1x CSLA round
+        - 12 Gauge, 8 Rnds:
+            - Added 1x CSLA rounds
+        - .32 ACP vz.61:
+            - Added 2x CSLA 20Rnd mags
+        - 40mm M203:
+            - Added 2x CSLA grenades
+        - .45 ACP M1911:
+            - Added 1x CSLA 7Rnd mag
+        - 5.56x45 M249 belts:
+            - Added 1x CSLA 200Rnd belts
+        - 5.56x45 STANAG:
+            - Added 1x CSLA 30Rnd mag
+        - 7.62x25 CZ52:
+            - Added 2x CSLA 8Rnd mags
+        - 7.62x39 vz.58:
+            - Added 3x CSLA 30Rnd mags
+        - 7.62x51 FAL:
+            - Added 1x CSLA 10Rnd mag
+            - Added 1x CSLA 20Rnd mag
+        - 7.62x51 Links:
+            - Added 1x CSLA 50Rnd belt
+            - Added 1x CSLA 100Rnd belt
+            - Added 1x CSLA 200Rnd belt
+            - Added 1x CSLA 220Rnd belt
+            - Added 1x CSLA 440Rnd belt
+        - 7.62x51 M14:
+            - Added 1x CSLA 10Rnd mag
+            - Added 1x CSLA 20Rnd mag
+        - 7.62x54R vz.59 belts:
+            - Added 6x CSLA 100Rnd belt
+        - 7.62x54R SVD:
+            - Added 3x CSLA 10Rnd mags
+        - 9x18 CZ82:
+            - Added 2x CSLA 12Rnd mags
+        - 9x19 M9:
+            - Added 1x CSLA 15Rnd mag
+        - 9x19 MP5:
+            - Added 1x CSLA 30Rnd mag
         - Carl Gustaf:
-            - Added 1x Vanilla HEAT 55 round
+            - Added 2x CSLA rockets
+        - FIM:
+            - Added 1x CSLA rocket
+        - Flare 26.5:
+            - Added 7xx CSLA grenades/flares
+        - SMAW:
+            - Added 2x CSLA rockets
+        - Strela:
+            - Added 1x CSLA rocket
+        - RPG7:
+            - Added 1x CSLA rocket
 
-- Vehicles:
     - Vanilla:
-        - Tracked APCs:
-            - Added TFAR intercom channels. **This affects other vehicles from other mods**
-        - Merkava:
-            - Added TFAR intercom channels
+        - 5.56x45 M249 belts:
+            - Added 1x CSLA 200Rnd belts
+        - 7.62x51 Links:
+            - Added 1x CSLA 50Rnd belt
+            - Added 1x CSLA 100Rnd belt
+            - Added 1x CSLA 200Rnd belt
+            - Added 1x CSLA 220Rnd belt
+            - Added 1x CSLA 440Rnd belt
+        - 7.62x51 M14:
+            - Added 1x CSLA 10Rnd mag
+            - Added 1x CSLA 20Rnd mag
+        - RPG7:
+            - Added 1x Unsung rocket
+        - 5.56x45 STANAG:
+            - Added 1x CSLA 30Rnd mag
+        - 7.62x54R SVD:
+            - Added 3x CSLA 10Rnd mags
+        - 40mm M203:
+            - Added 2x CSLA grenades
 
-# Changelog for Weapons balance 5.12.2020
-
-- Unhid multiple faces (mostly from basegame campaign) (Credit to Blutze)
-- Weapon changes:
-    - Vanilla:
-        - QBZ-95-1 LSW variants:
-           - Changed squad icon on DUI to AR type
-
-- Backpack changes:
-    - Vanilla:
-        - Effort to balance all radio backpacks, messenger bags and tactical packs to fit their counterparts from basegame/other mods
-
-# Changelog for Weapons balance 23.8.2020
-
-- Tweaked Vanilla MAAWS HEAT rounds - need testing
-
-- Weapon changes:
-    - Vanilla:
-        - AK-15 GLs:
-            - Changed weight from 4.76kg to 4.99kg
-        - FN Minimi SPW:
-            - Changed weight from 6.85kg to 8.00kg
-        - HK416A5 11"s:
-            - Changed weight from 3.36kg to 3.12kg
-        - HK416A5 11" GLs:
-            - Changed weight from 4.79kg to 4.62kg
-        - HK416A5 14.5"s:
-            - Changed weight from 3.54kg to 3.49kg
-        - HK417A2 20"s:
-            - Changed weight from 4.22kg to 4.74kg
-        - MP5K:
-            - Changed weight from 1.81kg to 2.54kg
-        - P90:
-            - Changed weight from 1.81kg to 2.60kg
-        - PS90:
-            - Changed weight from 1.81kg to 2.85kg
-        - RPKs:
-            - Changed names to "RPKM"
-            - Changed icon for DUI to MG
-        - VS-121:
-            - Removed full auto firing mode
-        - RPG-7:
-            - Changed weight from 3.63kg to 6.35kg
-
-- MagazineWells:
-    - CBA:
-         - 12 Gauge, 8 Rnds:
-             - Added 2x Vanilla/custom rounds
-         - 7.62x39 AK:
-             - Added 6x Vanilla 30Rnd mags
-         - 7.62x39 RPK:
-             - Added 8x Vanilla 75Rnd mags
-         - 9x18 Makarov:
-             - Added Vanilla 10Rnd mag
-         - 9x19 MP443:
-             - Added 4x 16Rnd Vanilla mags
 
 - Weight balancing:
     - Vanilla:
@@ -134,91 +192,5 @@
         - All (4x) 200Rnd 5.56x45 belts from 1.81kg to 2.34kg
 
 - Models/Icons/Names:
-    - Vanilla:
-        - Changed count of bullets of 16Rnd 9x21mm mag from 17 to 16
-
-# Changelog for Weapons balance 29.7.2020
-
-- Weapon changes:
-    - Vanilla:
-        - FN Minimi SPW:
-            - Added swappable barrel
-            - Changed weight from 11.79kg to 6.85kg
-        - AK-15s:
-            - Changed weight from 6.35kg to 3.49kg
-        - AK-15 GLs:
-            - Changed weight from 7.26kg to 4.76kg
-        - AK-15Ks:
-            - Changed weight from 4.99kg to 3.25kg
-        - RPKs:
-            - Changed weight from 7.71kg to 4.99kg
-        - MSBS Grots:
-            - Changed weight from 4.08kg to 3.63kg
-        - MSBS Grot GLs:
-            - Changed weight from 5.22kg to 4.79kg
-        - MSBS Grot MRs:
-            - Changed weight from 4.99kg to 4.13kg
-        - MSBS Grot SGs:
-            - Changed weight from 5.44kg to 4.99kg
-        - M14 (classic):
-            - Changed weight from 6.35kg to 4.17kg
-        - QBU-88s:
-            - Changed weight from 5.44kg to 4.08kg
-        - AKM:
-            - Changed weight from 5.44kg to 3.13kg
-        - AKS-74U:
-            - Changed weight from 3.63kg to 2.70kg
-        - HK416A5 11"s:
-            - Changed weight from 4.08kg to 3.36kg
-        - HK416A5 11" GLs:
-            - Changed weight from 4.99kg to 4.79kg
-        - HK416A5 14.5"s:
-            - Changed weight from 4.99kg to 3.54kg
-        - HK417A2 20"s:
-            - Changed weight from 7.26kg to 4.22kg
-        - QBZ-95-1s:
-            - Changed weight from 3.63kg to 3.27kg
-        - QBZ-95-1 LSWs:
-            - Changed weight from 4.54kg to 3.90kg
-        - Type 115s:
-            - Changed weight from 6.35kg to 4.99kg
-        - Kozlice 12G
-            - Changed weight from 4.99kg to 3.63kg
-
-- MagazineWells:
-    - CBA:
-        - 12 Gauge, 2 Rnds:
-            - Added 2x Vanilla 2Rnd
-        - 12 Gauge, 6 Rnds:
-            - Added 2x Vanilla 6Rnd
-        - 5.56x45 Stanag:
-            - Added 7x Vanilla 30Rnd sand mags
-        - 5.56x45 XL Stanag:
-            - Added 4x Vanilla 150Rnd drum mags
-        - 7.62x51 M14:
-            - Added Vanilla 10Rnd mag
-            - Added Vanilla 20Rnd mag
-        - 7.62x51 SR25:
-            - Added Vanilla 7.62x51 20Rnd mag
-        - 7.62x54R Links:
-            - Added 2x Vanilla 150Rnd belts
-    - Vanilla:
-        - 7.62x51 M240:
-            - Added 2x Vanilla 150Rnd belts
-        - 7.62x54R Links:
-            - Added 2x Vanilla 150Rnd belts
-        - 5.56x45 Stanag:
-            - Added 7x Vanilla sand mags
-
-- Weight balancing:
-    - Vanilla:
-        - Both 2Rnd 12 Gauge shotgun shells from 0.27kg to 0.10kg
-        - Both 6Rnd 12 Gauge shotgun shells from 0.54kg to 0.30kg
-        - All (6x) 150 Rnd Vanilla 5.56 drum mag from 1.36kg to 1.91kg
-
-- Models/Icons/Names:
-    - Vanilla:
-        - Changed descriptions and names of 25Rnd .45ACP mags
-        - Changed names of AK12 mags to AK-15 mags
-        - Changed names of Promet mags to MSBS mags
-        - Changed names of all MX Khaki weapons (removed the "6.5 mm" in the name)
+    - CSLA:
+        - Changed nearly all magazine names to fit their content better

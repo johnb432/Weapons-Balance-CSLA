@@ -1,12 +1,13 @@
-name = "Weapons-Balance-Vanilla"
-prefix = "wb_vanilla"
+name = "Weapons-Balance-CSLA"
+prefix = "wb_csla"
 author = "johnb43"
 template = "cba"
 mainprefix = "z"
 files = [
     "CHANGELOG.md",
     "mod.cpp",
-    "LICENSE"
+    "LICENSE",
+    "README.md"
 ]
 folder_optionals = false
 sig_version = 3

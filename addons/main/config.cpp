@@ -7,21 +7,47 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "ace_realisticnames",
-            "A3_Data_F_AoW_Loadorder"
+            "CSLA_CIV"
         };
         author = "johnb43";
-        authors[] = {
-            "johnb43",
-            "Blutze"
-        };
+        url = "https://github.com/johnb432/Weapons-Balance-CSLA";
+        VERSION_CONFIG;
     };
 };
 
-#include "CfgAcc.hpp"
+class CfgMods {
+    class PREFIX {
+        name = "Weapons Balance - CSLA";
+        author = "johnb43";
+        tooltipOwned = "Weapons Balance - CSLA";
+        hideName = 0;
+        hidePicture = 0;
+        actionName = "Github";
+        action = "https://github.com/johnb432/Weapons-Balance-CSLA";
+        description = "A collection of balancing mods made by johnb43.";
+        overview = "A collection of balancing mods made by johnb43.";
+        picture = "\z\wb_csla\addons\main\ui\logo_weapons_balance.paa"; // http://getdrawings.com/get-drawing#gun-drawing-in-pencil-27.jpg, http://getdrawings.com/get-drawing#gun-drawing-in-pencil-17.png
+        logo = "\z\wb_csla\addons\main\ui\logo_weapons_balance.paa";
+        overviewPicture = "\z\wb_csla\addons\main\ui\logo_weapons_balance.paa";
+    };
+};
+
 #include "CfgAmmo.hpp"
-#include "CfgFaces.hpp"
 #include "CfgMagazines.hpp"
 #include "CfgMagazineWells.hpp"
-#include "CfgVehicles.hpp"
-#include "CfgWeapons.hpp"
+
+class CfgWeapons {
+    class Rifle;
+    class Rifle_Base_F: Rifle {
+        class WeaponSlotsInfo {};
+    };
+
+    class Pistol;
+    class Pistol_Base_F: Pistol {
+        class WeaponSlotsInfo {};
+    };
+
+    #include "weapons\CfgWeapCSLA.hpp"
+    #include "weapons\CfgWeapUS.hpp"
+    #include "weapons\CfgLaunchers.hpp"
+};

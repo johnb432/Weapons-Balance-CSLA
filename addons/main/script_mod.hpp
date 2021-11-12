@@ -1,5 +1,5 @@
 #define MAINPREFIX z
-#define PREFIX wb_vanilla
+#define PREFIX wb_csla
 
 #include "script_version.hpp"
 
@@ -11,4 +11,4 @@
 #define REQUIRED_VERSION 2.04
 #define REQUIRED_CBA_VERSION {3,12,2}
 
-#define COMPONENT_NAME QUOTE(Weapons Balance - Vanilla)
+#define COMPONENT_NAME QUOTE(Weapons Balance - CSLA)
