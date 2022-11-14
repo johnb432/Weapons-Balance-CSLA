@@ -16,6 +16,7 @@ class CfgPatches {
     };
 };
 
+#include "CfgAcc.hpp"
 #include "CfgAmmo.hpp"
 #include "CfgMagazines.hpp"
 #include "CfgMagazineWells.hpp"
@@ -23,12 +24,12 @@ class CfgPatches {
 class CfgWeapons {
     class Rifle;
     class Rifle_Base_F: Rifle {
-        class WeaponSlotsInfo {};
+        class WeaponSlotsInfo;
     };
 
     class Pistol;
     class Pistol_Base_F: Pistol {
-        class WeaponSlotsInfo {};
+        class WeaponSlotsInfo;
     };
 
     #include "weapons\CfgWeapCSLA.hpp"

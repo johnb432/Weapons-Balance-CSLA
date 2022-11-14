@@ -1,9 +1,6 @@
-class Launcher;
-class Launcher_Base_F: Launcher {
-    class WeaponSlotsInfo {};
-};
+class Launcher_Base_F;
 class US85_launcherBase: Launcher_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class US85_FIM92: US85_launcherBase {
     ace_reloadlaunchers_enabled = 1;
@@ -43,7 +40,7 @@ class US85_SMAW: US85_launcherBase {
 };
 
 class CSLA_LauncherBase: Launcher_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class CSLA_RPG7: CSLA_LauncherBase {
     ace_reloadlaunchers_enabled = 1;
