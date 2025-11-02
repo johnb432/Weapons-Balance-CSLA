@@ -60,7 +60,6 @@ class CfgMagazineWells {
 
     class CBA_762x51_FAL {
         WB_Magazines[] += {
-            "US85_10Rnd_762x51",
             "US85_20Rnd_762x51"
         };
     };
@@ -77,7 +76,6 @@ class CfgMagazineWells {
 
     class CBA_762x51_M14 {
         WB_Magazines[] += {
-            "US85_10Rnd_762x51",
             "US85_20Rnd_762x51"
         };
     };
@@ -166,7 +164,6 @@ class CfgMagazineWells {
 
     class M14_762x51 {
         WB_Magazines[] += {
-            "US85_10Rnd_762x51",
             "US85_20Rnd_762x51"
         };
     };

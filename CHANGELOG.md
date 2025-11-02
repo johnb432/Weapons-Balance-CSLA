@@ -1,3 +1,9 @@
+# Changelog for Weapons balance 2.11.2025
+
+1.0.1.0
+- Updated to work with latest release of CSLA.
+- Minor cleanup.
+
 # Changelog for Weapons balance 14.11.2022
 
 1.0.0.2

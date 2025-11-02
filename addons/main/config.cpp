@@ -22,10 +22,7 @@ class CfgPatches {
 #include "CfgMagazineWells.hpp"
 
 class CfgWeapons {
-    class Rifle;
-    class Rifle_Base_F: Rifle {
-        class WeaponSlotsInfo;
-    };
+    class Rifle_Base_F;
 
     class Pistol;
     class Pistol_Base_F: Pistol {
